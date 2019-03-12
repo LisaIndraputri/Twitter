@@ -14,6 +14,7 @@ import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { routes } from './routes'
 import store from './store'
+import scss from './scss/index.scss'
 library.add(faCoffee)
 library.add(faSearch)
 library.add(faUsers)
@@ -38,6 +39,7 @@ new Vue({
   el: '#app',
   router,
   store,
+  scss,
   render: h => h(App)
 })
 
